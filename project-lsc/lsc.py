@@ -8,9 +8,9 @@ import validators
 from dotenv import load_dotenv
 from win11toast import toast
 
-secret_path = os.environ.get("SECRET_PATH")
-load_dotenv()
-APIKEY = os.getenv("API_KEY")
+secret_path = os.environ.get("SECRET_PATH")  // 
+load_dotenv()                                //    
+APIKEY = os.getenv("API_KEY")                //  get your own api key
 
 json_log_path = f"{os.path.expanduser("~")}\\AppData\\Local\\lsclogs.json"
 
