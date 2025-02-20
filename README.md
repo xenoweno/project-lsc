@@ -19,4 +19,6 @@ Requirements
 3. An Api Key from VirusTotal
   create an account in https://www.virustotal.com/ 
   Copy the free Api key
-  paste it in the .env file (API_KEY = "your-Api-Key")
+  Create a .env file in the same folder as the python file
+  In the .env file 
+  API_KEY = "your-Api-Key"  <--paste your api key from virus total inside the ""
