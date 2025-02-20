@@ -5,12 +5,9 @@ import pyperclip
 import vt
 import time
 import validators
-from dotenv import load_dotenv
 from win11toast import toast
 
-secret_path = os.environ.get("SECRET_PATH")
-load_dotenv()
-APIKEY = os.getenv("API_KEY")
+APIKEY = "your-api-key"         #paste your api key inside the double quotes
 
 json_log_path = f"{os.path.expanduser("~")}\\AppData\\Local\\lsclogs.json"
 
