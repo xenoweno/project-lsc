@@ -13,7 +13,6 @@ Requirements
       vt
       vt-py
       validators
-      dotenv
       win11toast  
 
 3. An Api Key from VirusTotal  
