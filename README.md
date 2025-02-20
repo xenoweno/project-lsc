@@ -13,9 +13,10 @@ Requirements
       vt
       vt-py
       validators
-      win11toast  
+      win11toast
+      pyperclip==1.8.2   
 
-3. An Api Key from VirusTotal  
+4. An Api Key from VirusTotal  
   create an account in https://www.virustotal.com/   
   Copy the free Api key  
   In the python file (line 10) paste your api key in the APIKEY variable  
