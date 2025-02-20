@@ -128,13 +128,13 @@ def output(urlStats):
                 toast("Malicious link", button="Dismiss")
             del urlStats[0], urlStats[0], urlStats[0], urlStats[0]
 
-def main():
-    while True:
-            w = clipBoard()
-            if w and validators.url(w):
-                x, y = urlCheck(w)
-                if x and y:
-                    urlSubmit(x)
-                    z = stats(urlReport(y))
-                    output(z)
-                time.sleep(1)
+
+while True:
+        w = clipBoard()
+        if w and validators.url(w):
+            x, y = urlCheck(w)
+            if x and y:
+                urlSubmit(x)
+                z = stats(urlReport(y))
+                output(z)
+            time.sleep(1)
